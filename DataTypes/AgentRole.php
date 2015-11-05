@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices\DataTypes;
+namespace orangeplus\Five9WebServices\DataTypes;
 
 /**
  * Class AgentRole

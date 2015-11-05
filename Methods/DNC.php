@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices\Methods;
+namespace orangeplus\Five9WebServices\Methods;
 
 use Five9WebServices\Five9Exception;
 
@@ -14,7 +14,7 @@ class DNC extends Methods
   /**
    * Use this method to add phone numbers to the domain-wide do-not-call (DNC)
    * list. Because these lists are typically very large, you can import them
-   * only from 11:00 PM – 6:00 AM Pacific Time. If you use this method at other
+   * only from 11:00 PM ï¿½ 6:00 AM Pacific Time. If you use this method at other
    * times, you receive an exception.
    *
    * @param string[] $numbersNotToCall

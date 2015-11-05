@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices\Settings;
+namespace orangeplus\Five9WebServices\Settings;
 
 /**
  * Class FieldMapped

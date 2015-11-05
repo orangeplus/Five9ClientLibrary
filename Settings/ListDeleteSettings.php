@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices\Settings;
+namespace orangeplus\Five9WebServices\Settings;
 
 use Five9WebServices\Constants\ListDeleteModes;
 use Five9WebServices\Five9Exception;

@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices;
+namespace orangeplus\Five9WebServices;
 
 use Five9WebServices\Settings\ViewSettings;
 

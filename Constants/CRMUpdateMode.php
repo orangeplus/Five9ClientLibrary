@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices\Constants;
+namespace orangeplus\Five9WebServices\Constants;
 
 class CRMUpdateMode extends Constant
 {

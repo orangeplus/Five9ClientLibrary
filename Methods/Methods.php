@@ -1,5 +1,5 @@
 <?php
-namespace Five9WebServices\Methods;
+namespace orangeplus\Five9WebServices\Methods;
 
 use Five9WebServices\Contact;
 
