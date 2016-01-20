@@ -1,8 +1,8 @@
 <?php
 namespace orangeplus\Five9WebServices\Methods;
 
-use Five9WebServices\DataTypes\AgentGroup;
-use Five9WebServices\Five9Exception;
+use orangeplus\Five9WebServices\DataTypes\AgentGroup;
+use orangeplus\Five9WebServices\Five9Exception;
 
 class User extends Methods
 {

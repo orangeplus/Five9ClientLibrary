@@ -1,8 +1,8 @@
 <?php
 namespace orangeplus\Five9WebServices\Settings;
 
-use Five9WebServices\Constants\ListDeleteModes;
-use Five9WebServices\Five9Exception;
+use orangeplus\Five9WebServices\Constants\ListDeleteModes;
+use orangeplus\Five9WebServices\Five9Exception;
 
 /**
  * Class ListDeleteSettings

@@ -1,12 +1,12 @@
 <?php
 namespace orangeplus\Five9WebServices\Methods;
 
-use Five9WebServices\Five9Exception;
-use Five9WebServices\Contact;
-use Five9WebServices\DataTypes\ListImportResult;
-use Five9WebServices\Settings\ListUpdateSettings;
-use Five9WebServices\Settings\ListDeleteSettings;
-use Five9WebServices\Settings\ListUpdateSimpleSettings;
+use orangeplus\Five9WebServices\Five9Exception;
+use orangeplus\Five9WebServices\Contact;
+use orangeplus\Five9WebServices\DataTypes\ListImportResult;
+use orangeplus\Five9WebServices\Settings\ListUpdateSettings;
+use orangeplus\Five9WebServices\Settings\ListDeleteSettings;
+use orangeplus\Five9WebServices\Settings\ListUpdateSimpleSettings;
 
 /**
  * Class CampaignList

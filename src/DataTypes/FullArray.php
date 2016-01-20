@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices\DataTypes;
 
-use Five9WebServices\DataTypes\Results;
+use orangeplus\Five9WebServices\DataTypes\Results;
 
 /**
  * Class FullArray

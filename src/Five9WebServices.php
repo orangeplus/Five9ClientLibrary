@@ -1,10 +1,10 @@
 <?php
 namespace orangeplus\Five9WebServices;
 
-use Five9WebServices\Methods\DispositionConfiguration;
-use Five9WebServices\Methods\Contact;
-use Five9WebServices\Methods\CampaignList;
-use Five9WebServices\Methods\User;
+use orangeplus\Five9WebServices\Methods\DispositionConfiguration;
+use orangeplus\Five9WebServices\Methods\Contact;
+use orangeplus\Five9WebServices\Methods\CampaignList;
+use orangeplus\Five9WebServices\Methods\User;
 
 /**
  * Class Five9WebServices

@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices;
 
-use Five9WebServices\Settings\ViewSettings;
+use orangeplus\Five9WebServices\Settings\ViewSettings;
 
 /**
  * Class Five9StatisticsService

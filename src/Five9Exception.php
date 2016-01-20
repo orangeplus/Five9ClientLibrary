@@ -4,7 +4,7 @@ namespace orangeplus\Five9WebServices;
 /**
  * Class Five9Exception
  *
- * @package   Five9WebServices
+ * @package  Five9WebServices
  * @author   Keith Rockhold <keith@keithrockhold.com>
  */
 class Five9Exception extends \Exception

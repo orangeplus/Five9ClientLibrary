@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices\DataTypes;
 
-use Five9WebServices\Constants\AdminPermissionType;
+use orangeplus\Five9WebServices\Constants\AdminPermissionType;
 
 /**
  * Class AdminPermissions

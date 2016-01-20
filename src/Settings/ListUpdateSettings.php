@@ -1,11 +1,11 @@
 <?php
 namespace orangeplus\Five9WebServices\Settings;
 
-use Five9WebServices\Constants\CallNowModes;
-use Five9WebServices\Constants\CRMAddMode;
-use Five9WebServices\Constants\CRMUpdateMode;
-use Five9WebServices\Constants\ListAddMode;
-use Five9WebServices\Five9Exception;
+use orangeplus\Five9WebServices\Constants\CallNowModes;
+use orangeplus\Five9WebServices\Constants\CRMAddMode;
+use orangeplus\Five9WebServices\Constants\CRMUpdateMode;
+use orangeplus\Five9WebServices\Constants\ListAddMode;
+use orangeplus\Five9WebServices\Five9Exception;
 
 /**
  * Class ListUpdateSettings

@@ -1,8 +1,8 @@
 <?php
 namespace orangeplus\Five9WebServices\Settings;
 
-use Five9WebServices\Constants\CRMAddMode;
-use Five9WebServices\Constants\CRMUpdateMode;
+use orangeplus\Five9WebServices\Constants\CRMAddMode;
+use orangeplus\Five9WebServices\Constants\CRMUpdateMode;
 
 /**
  * Class CRMUpdateSettings

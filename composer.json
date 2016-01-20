@@ -1,0 +1,9 @@
+{
+  "name": "orangeplus/Five9ClientLibrary",
+  "version": 0.1,
+  "autoload": {
+    "psr-0" : {
+      "orangeplus\\Five9ClientLibrary" : "src"
+    }
+  }
+}
