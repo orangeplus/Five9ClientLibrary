@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices\Methods;
 
-use orangeplus\Five9WebServices\Contact;
+use \orangeplus\Five9WebServices\Contact;
 
 /**
  * Class Methods

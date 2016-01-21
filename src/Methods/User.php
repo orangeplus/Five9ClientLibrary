@@ -1,8 +1,8 @@
 <?php
 namespace orangeplus\Five9WebServices\Methods;
 
-use orangeplus\Five9WebServices\DataTypes\AgentGroup;
-use orangeplus\Five9WebServices\Five9Exception;
+use \orangeplus\Five9WebServices\DataTypes\AgentGroup;
+use \orangeplus\Five9WebServices\Five9Exception;
 
 class User extends Methods
 {
@@ -101,7 +101,7 @@ class User extends Methods
     $result = $this->client->getUsersGeneralInfo($query);
     $users = [];
     foreach ($result->return as $user) {
-      $users[] = \Five9WebServices\DataTypes\UserGeneralInfo::cast($user);
+      $users[] =\orangeplus\Five9WebServices\DataTypes\UserGeneralInfo::cast($user);
     }
 
     return $users;

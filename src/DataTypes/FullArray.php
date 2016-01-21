@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices\DataTypes;
 
-use orangeplus\Five9WebServices\DataTypes\Results;
+use \orangeplus\Five9WebServices\DataTypes\Results;
 
 /**
  * Class FullArray
@@ -10,7 +10,7 @@ use orangeplus\Five9WebServices\DataTypes\Results;
  */
 abstract class FullArray
 {
-  use \Five9WebServices\Castable;
+  use \orangeplus\Five9WebServices\Castable;
 
   /**
    * The DataTypes use private and protected variables to ensure the setters

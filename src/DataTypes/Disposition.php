@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices\DataTypes;
 
-use orangeplus\Five9WebServices\Constants\CustomDispositionType;
+use \orangeplus\Five9WebServices\Constants\CustomDispositionType;
 
 /**
  * Class Disposition
@@ -10,7 +10,7 @@ use orangeplus\Five9WebServices\Constants\CustomDispositionType;
  */
 class Disposition
 {
-  use \Five9WebServices\Castable;
+  use \orangeplus\Five9WebServices\Castable;
 
   /** @var  boolean */
   public $agentMustCompleteWorksheet;

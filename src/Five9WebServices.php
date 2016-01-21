@@ -1,10 +1,10 @@
 <?php
 namespace orangeplus\Five9WebServices;
 
-use orangeplus\Five9WebServices\Methods\DispositionConfiguration;
-use orangeplus\Five9WebServices\Methods\Contact;
-use orangeplus\Five9WebServices\Methods\CampaignList;
-use orangeplus\Five9WebServices\Methods\User;
+use \orangeplus\Five9WebServices\Methods\DispositionConfiguration;
+use \orangeplus\Five9WebServices\Methods\Contact;
+use \orangeplus\Five9WebServices\Methods\CampaignList;
+use \orangeplus\Five9WebServices\Methods\User;
 
 /**
  * Class Five9WebServices
@@ -29,8 +29,7 @@ class Five9WebServices
    */
   function __construct($username, $password)
   {
-    $wsdlFive9
-      = "https://api.five9.com/wsadmin/v4/AdminWebService?wsdl&user=".$username;
+    $wsdlFive9 = "https://api.five9.com/wsadmin/v4/AdminWebService?wsdl&user=".$username;
     $options = array(
       'login'      => $username,
       'password'   => $password,

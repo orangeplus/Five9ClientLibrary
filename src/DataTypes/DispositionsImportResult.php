@@ -8,6 +8,6 @@ namespace orangeplus\Five9WebServices\DataTypes;
  */
 class DispositionsImportResult extends BasicImportResult
 {
-  use \Five9WebServices\Castable;
+  use \orangeplus\Five9WebServices\Castable;
   // No data beyond what is in BasicImportResult
 }

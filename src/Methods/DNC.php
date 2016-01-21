@@ -1,7 +1,7 @@
 <?php
 namespace orangeplus\Five9WebServices\Methods;
 
-use orangeplus\Five9WebServices\Five9Exception;
+use \orangeplus\Five9WebServices\Five9Exception;
 
 /**
  * Class DNC

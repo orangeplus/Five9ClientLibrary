@@ -16,9 +16,7 @@ class Contact
   const DATE_TIME_FORMAT = "Y-m-d H:i:00.000";
 
   // array of field names used as id fields for updating CRM record
-  public static $ID_FIELDS = [
-    'number11'
-  ];
+  public static $ID_FIELDS = ['number1'];
 
   /** @var int */
   private $priority;
@@ -46,7 +44,7 @@ class Contact
   /**
    * @param string $listName
    *
-   * @return \Five9WebServices\DataTypes\ListImportResult
+   * @return \orangeplus\Five9WebServices\DataTypes\ListImportResult
    * @throws Five9Exception
    */
   public function addToList($listName)
@@ -59,7 +57,7 @@ class Contact
   /**
    * @param string $listName
    *
-   * @return \Five9WebServices\DataTypes\ImportIdentifier
+   * @return \orangeplus\Five9WebServices\DataTypes\ImportIdentifier
    * @throws Five9Exception
    */
   public function deleteFromList($listName)
@@ -70,7 +68,7 @@ class Contact
   }
 
   /**
-   * @return \Five9WebServices\DataTypes\ListImportResult
+   * @return \orangeplus\Five9WebServices\DataTypes\ListImportResult
    * @throws Five9Exception
    */
   public function deleteFromContacts()

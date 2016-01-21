@@ -1,11 +1,10 @@
 <?php
 namespace orangeplus\Five9WebServices\Methods;
 
-use orangeplus\Five9WebServices\Five9Exception;
-use orangeplus\Five9WebServices\Contact;
-use orangeplus\Five9WebServices\DataTypes\CRMImportResult;
-use orangeplus\Five9WebServices\Settings\CRMUpdateSettings;
-use orangeplus\Five9WebServices\Settings\CRMDeleteSettings;
+use \orangeplus\Five9WebServices\Five9Exception;
+use \orangeplus\Five9WebServices\DataTypes\CRMImportResult;
+use \orangeplus\Five9WebServices\Settings\CRMUpdateSettings;
+use \orangeplus\Five9WebServices\Settings\CRMDeleteSettings;
 
 
 /**

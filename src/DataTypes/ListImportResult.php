@@ -8,7 +8,7 @@ namespace orangeplus\Five9WebServices\DataTypes;
  */
 class ListImportResult
 {
-  use \Five9WebServices\Castable;
+  use \orangeplus\Five9WebServices\Castable;
 
   /** @var  int */
   public $callNowQueued;

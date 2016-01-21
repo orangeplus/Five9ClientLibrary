@@ -8,7 +8,7 @@ namespace orangeplus\Five9WebServices\DataTypes;
  */
 class Timer
 {
-  use \Five9WebServices\Castable;
+  use \orangeplus\Five9WebServices\Castable;
 
   /** @var  int */
   public $days;

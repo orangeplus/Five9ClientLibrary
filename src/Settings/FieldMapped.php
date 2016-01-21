@@ -14,7 +14,7 @@ class FieldMapped
   /**
    * FieldMapped constructor.
    *
-   * @param \Five9WebServices\Contact $record
+   * @param\orangeplus\Five9WebServices\Contact $record
    */
   public function __construct($record = null)
   {

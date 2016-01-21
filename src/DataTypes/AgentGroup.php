@@ -8,7 +8,7 @@ namespace orangeplus\Five9WebServices\DataTypes;
  */
 class AgentGroup extends FullArray
 {
-  use \Five9WebServices\Castable;
+  use \orangeplus\Five9WebServices\Castable;
 
   /** @var string */
   public $id;
